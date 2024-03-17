@@ -18,8 +18,8 @@ eBtn.style.display = 'none';
 
 rangeInput.addEventListener('input', function() {
     rangeSpan.innerText = rangeInput.value;
-    circle.style.height = 200*rangeInput.value/100+'px';
-    circle.style.width = 200*rangeInput.value/100+'px';
+    circle.style.height = rangeInput.value+'%';
+    circle.style.width = rangeInput.value+'%';
 });
 
 
